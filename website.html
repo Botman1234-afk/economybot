@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+    <link rel="icon" href="softwaresatbotlogo.jpg"  type="image/icon type">
+
+
+    <title>Login Page</title>
+    <!--My Tab Icon-->
+<!--Bootstrap CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--jQuery JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+   
+<!--Popper JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!--Bootstrap JS-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!--My CSS-->
+
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Softwaresat Database</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://softwaresat.onthewifi.com/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://softwaresat.onthewifi.com/glb">Global Leaderboard</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://softwaresat.onthewifi.com/players">Player Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://softwaresat.onthewifi.com/servers">Server Search</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+<h1 style='text-align:center;margin-top:10%;'>Userinfo Search</h1>
+<!-- Modal -->
+<div class="card" style="width: 18rem; margin-left:auto;margin-right:auto;margin-top:15%;">
+    <div class="card-body">
+        <form id="form_id" method="POST" name="myform" action='details'>
+            <label style='text-align:center;'>Enter the Username:</label>
+            <input type="text" name="username" id="username" class="border border-primary" required>
+            <input type="submit" value="Submit" id="submit" data-toggle="modal" data-target="#popup" class="btn btn-primary"/>
+            
+            </form>
+    </div>
+  </div>
+  
+     
+     
+    
+    
+    </body>
+</html>

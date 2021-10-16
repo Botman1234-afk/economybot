@@ -1,0 +1,9 @@
+{ 
+    "bot":{
+        "token": "NzYwNjU0NzkwNTIyNTY4NzM1.X3PM-g.LhJMAdv4fA9P0s5ofhfz49znuyI",
+        "secret": "fzQsfjsq6pt7zH7eEjwQZd6iXk-H7_K2"
+
+    },
+    "dashboardURL": "http://localhost:3000",
+    
+}
