@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+body {
+    background-color: #91a7d6;
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla',serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.cmds {
+    background-image: url("./images/pattern.png");
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla',serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+p4 {
+    color:black;
+    font-family: 'Karla',serif;
+}
+
+.pointer-hover {
+    cursor: pointer;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navbar */
+.container {
+    position: sticky;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #7b8db3;
+    padding: 10px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    height: 125px;
+    width: 125px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 45px;
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    position: absolute;
+    top: 0px;
+    width: 0%;
+
+    transition: all cubic-bezier(0.895, 0.03, 0.685, 0.22) 250ms;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    transition: all cubic-bezier(0.895, 0.03, 0.685, 0.22) 250ms; 
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* Wrapper */
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+/* Text Elements */
+
+p {
+    text-align: center;
+    font-size: 35px;
+}
+
+p4 {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+textarea {
+    background-color: rgb(0, 0, 0, 0);
+    border: 5px solid #ffffff;
+    font-family: 'Karla',serif;;
+    color: white;
+    resize: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+  background-image: url('https://www.colorhexa.com/ffffff.png');
+  /*border: 5px solid #ffffff;*/
+  color: black;
+}
+
+textarea:hover {
+  /*background-image:url('https://www.colorhexa.com/ffffff.png');*/
+  border: 5px solid #ffffff;
+  color: black;
+}
+
+button {
+    background-color: rgb(0, 0, 0, 0);
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Karla',serif;;
+    display: inline-block;
+    font-size: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #7b8db3;
+}
+
+/* Cards */
+.card {
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+    max-width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+.card-class {
+    color: #91a7d6
+}
+  
+/* Footer */
+
+.footer {
+    background-color: #7b8db3;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+  }
+
+/* Table */
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+  }
+
+  tr:hover {
+    background-color: rgb(20, 20, 20);
+  }
+
+  tr {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+  }
+    
+    td {
+      border: 1px solid rgb(20, 20, 20);
+      padding: 8px;
+      text-align: center;
+    }      
+
+    th  {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }   
+
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  .herd {
+      font-size: 50px;
+      text-size: 50px;
+  }

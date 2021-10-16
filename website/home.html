@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="meta description"> 
+    <link rel="icon" href="upload.png" sizes="16x16">
+<!--    <meta content="title" property="og:title">-->
+<!--<meta content="description" property="og:description">-->
+<!--<meta content="link" property="og:url">-->
+<!--<meta content="image" property="og:image">-->
+
+<meta property="og:type" content="website">
+    <meta property="og:title" content="Invictus Bot List" />
+    <meta property="og:description" content="Just the best bot listing group!!!" />
+    <meta property="og:url" content="https://invictusbotlist.onthewifi.com" />
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/674458872609636352/820731369210511370/Recess.png" />
+
+<meta content="#141414" data-react-helmet="true" name="theme-color">
+    <script src="https://kit.fontawesome.com/97ffff80f1.js" crossorigin="anonymous"></script>
+    <title>Softwaresat | Home</title>
+  </head>
+  <body>
+    <style>
+      ::selection {
+              color: #000000;
+              background: #ffffff;
+              }
+      @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+body {
+    background-color: #91a7d6;
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla',serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.cmds {
+    background-image: url("./images/pattern.png");
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla',serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+p4 {
+    color:black;
+    font-family: 'Karla',serif;
+}
+
+.pointer-hover {
+    cursor: pointer;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navbar */
+.container {
+    position: sticky;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #7b8db3;
+    padding: 10px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    height: 125px;
+    width: 125px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 45px;
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    position: absolute;
+    top: 0px;
+    width: 0%;
+
+    transition: all cubic-bezier(0.895, 0.03, 0.685, 0.22) 250ms;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    transition: all cubic-bezier(0.895, 0.03, 0.685, 0.22) 250ms; 
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* Wrapper */
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+/* Text Elements */
+
+p {
+    text-align: center;
+    font-size: 35px;
+}
+
+p4 {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+textarea {
+    background-color: rgb(0, 0, 0, 0);
+    border: 5px solid #ffffff;
+    font-family: 'Karla',serif;;
+    color: white;
+    resize: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+  background-image: url('https://www.colorhexa.com/ffffff.png');
+  /*border: 5px solid #ffffff;*/
+  color: black;
+}
+
+textarea:hover {
+  /*background-image:url('https://www.colorhexa.com/ffffff.png');*/
+  border: 5px solid #ffffff;
+  color: black;
+}
+
+button {
+    background-color: rgb(0, 0, 0, 0);
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Karla',serif;;
+    display: inline-block;
+    font-size: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #7b8db3;
+}
+
+/* Cards */
+.card {
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+    max-width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+.card-class {
+    color: #91a7d6
+}
+  
+/* Footer */
+
+.footer {
+    background-color: #7b8db3;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+  }
+
+/* Table */
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+  }
+
+  tr:hover {
+    background-color: rgb(20, 20, 20);
+  }
+
+  tr {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+  }
+    
+    td {
+      border: 1px solid rgb(20, 20, 20);
+      padding: 8px;
+      text-align: center;
+    }      
+
+    th  {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }   
+
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    
+
+      </style>
+
+    <header id="navbar">
+      <div class="container">
+
+        <a href="javascript:void(0)" id="play">
+        <img src="./images/upload.png" alt="Desixred Logo" class="logo">
+      </a>
+        <div class="wrapper">
+        <nav>
+          <ul>
+            <li><a href="javascript:void(0)">Home  <i class="fas fa-home"></i></a></li>
+            <li><a href="#">?  <i class="fas fa-desktop"></i></a></li>
+            
+          </ul>
+        </div>
+        </nav>
+      </div>
+
+
+    </header>
+    <div class="wrapper">
+    <h1><p>Softwaresat</p></h1>
+    <br><br><br><br><br>
+    <p><img src="./images/upload.png" style="width: 216px; height: 216px;"></p>
+    <br><br><br>
+    <p><button title="Invite Desixred" class="discord-button" onclick=" window.open('https://discord.com/api/oauth2/authorize?client_id=830461569233977377&permissions=8&scope=bot', '_blank'); return false;">Add to Discord  <i class="fab fa-discord"></i></button>   <button title="Join the Server" onclick=" window.open('https://discord.gg/desixred', '_blank'); return false;">Join the Server  <i class="fas fa-user-friends"></i></button></p></br></br></br>
+
+    <div class="card">
+      <img src="https://static.thenounproject.com/png/1400397-200.png" alt="Padlock" style="width:50%" onclick="padlock.play()">
+      <p class="card-class">Feature 1</p>
+      </div>
+
+    <div class="card">
+      <img src="https://static.thenounproject.com/png/1400397-200.png" alt="Moneybag" style="width:50%" onclick="moneybag.play()">
+      <p class="card-class">Feature 2</p>
+      </div>
+
+    <div class="card">
+      <img src="https://static.thenounproject.com/png/1400397-200.png" alt="Smiles" style="width:50%" onclick="laughing.play()">
+      <p class="card-class">Feature 3</p>
+      </div>
+      <br><br>
+      <div class="card">
+      <img src="https://static.thenounproject.com/png/1400397-200.png" alt="Clock" style="width:50%" onclick="clock.play()">
+      <p class="card-class">Feature 4</p>
+      </div>
+
+      <div class="card">
+      <img src="https://static.thenounproject.com/png/1400397-200.png" alt="Discord" style="width:50%">
+      <p class="card-class">Feature 5</p>
+      </div>
+
+      <div class="card">
+      <img src="https://static.thenounproject.com/png/1400397-200.png" alt="User" style="width:50%" onclick="hello.play()">
+      <p class="card-class">Feature 6</p>
+      </div>
+  </div>
+  </br>
+</br>
+    <div>
+    <div class="footer">
+      </br>
+      <button onclick="window.open('https://discord.gg/desixred', '_blank'); return false;"><i class="fab fa-discord fa-5x"></i></button>   <button onclick=" window.open('https://discord.com/api/oauth2/authorize?client_id=830461569233977377&permissions=8&scope=bot', '_blank'); return false;"><i class="fas fa-paper-plane fa-5x"></i></button>   <button onclick="window.open('https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fdeveloper.twitter.com%2Fen%2Fdocs%2Ftwitter-for-websites%2Ffollow-button%2Foverview&ref_src=twsrc%5Etfw&screen_name=PogBotDC&tw_p=followbutton', '_blank'); return false;"><i class="fas fa-user-friends fa-5x"></i></button>
+    </br></br></br>
+</div>
+      </div>
+  </body>
+</html>
